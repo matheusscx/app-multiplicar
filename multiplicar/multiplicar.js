@@ -45,28 +45,11 @@ let listarTabla = (base, limite) => {
 
 };
 
-// let crearTablaAsyncAwait = async (base) => {
-//     let data = '';
-//     for (let i = 1; i <= 10; i++) {
-//         data += `${base} * ${i} = ${base * i}\n`;
-//     }
 
-//     fs.writeFile(`./multiplicar/tablas/tabla-del-${base}.txt`, data, (err) => {
-//         if (err) {
-//             return err;
-//         } else {
-//             return archivo = `tabla-del-${base}.txt`;
-//         }
-//     });
-
-//     console.log(archivo);
-
-// };
 
 module.exports = {
     crearTablaPromise,
     listarTabla
-    //crearTablaAsyncAwait,
 };
 
 
