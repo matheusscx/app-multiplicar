@@ -4,6 +4,8 @@
 Esta es una aplicacion de comandos para generar archivos de las tablas de multiplicar.
 
 
-''''Comandos''''
+```
+Comandos
 listar
 crear
+```
